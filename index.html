@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyen Ha</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--    Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+
+    <!--    Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Raleway&family=Roboto&display=swap"
+          rel="stylesheet">
+
+    <!--    fontawesome-->
+    <script src="https://kit.fontawesome.com/bb18c3dbdf.js" crossorigin="anonymous"></script>
+
+    <!--    Google jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/script.js" defer></script>
+
+
+</head>
+
+
+<body class="container-flex">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: var(--navbar-bg);">
+    <div class="container">
+        <a class="navbar-brand" href="#">Nguyen Ha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#publication">Publications</a>
+                <!--            <a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div id="banner" class="py-4">
+    <div class="imgDiv text-center">
+        <img id="profileImg" src="/img/wall1.jpg" alt="Profile Image" class="img-fluid">
+    </div>
+    <div class="titleDiv row">
+        <h1 class="d-flex justify-content-center">Nguyen Ha</h1>
+    </div>
+
+    <div class="introDive">
+        <p class=" d-flex justify-content-center flex-nowrap">Clark University '23</p>
+        <p class=" d-flex justify-content-center flex-nowrap">Double Major in Computer Science & Data Science</p>
+    </div>
+    <div class="contactDiv d-flex justify-content-center flex-nowrap">
+        <a href="https://github.com/nguyenha1910"><i class="fa-brands fa-github-square fa-2xl mx-1"></i></a>
+        <a href="https://www.linkedin.com/in/nguyenbha/"><i class="fa-brands fa-linkedin fa-2xl mx-1"></i></a>
+        <a href="mailto:joha@clarku.edu"><i class="fa-solid fa-envelope fa-2xl mx-1"></i></a>
+    </div>
+</div>
+
+
+<div id="projects">
+    <div class="pt-4 mx-auto col-lg-9 col-md-11 col-sm-11 col-xs-11 row">
+        <div class="titleDiv row my-4">
+            <h2 class="d-flex justify-content-center">Projects</h2>
+        </div>
+
+        <div class="project row col-11 mx-auto" id="bookez">
+            <div class="imgDiv col-lg-4 col-md-4 col-sm-6 col-xs-6 mx-auto">
+                <img src="/img/bookez_icon.png" alt="BookEz" class="img-fluid projImg">
+            </div>
+            <div class="infoDiv offset-lg-1 col-lg-7 offset-md-1 col-md-7 col-sm-12 px-sm-2 col-xs-11">
+                <h5>Book-EZ</h5>
+                <p>
+                    In collaboration with Book-Ez (a student entrepreneur that
+                    sources and resells used books on & off-campus at Clark University),
+                    me and my team have helped develop this website to make books more
+                    affordable and accessible to the community.
+                    <br>
+                    Technology: (HTML, CSS, Bootstrap, JavaScript, jQuery, NodeJS, MongoDB.
+                    <br>
+                    <a href="https://book-ez.herokuapp.com/">Book-EZ website </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="project row col-11 mx-auto" id="ytPkg">
+            <div class="imgDiv col-lg-4 col-md-4 col-sm-6 col-xs-6 mx-auto">
+                <img src="/img/PyPI_logo.png" alt="YouTubeCommentAnalysis" class="img-fluid projImg">
+            </div>
+            <div class="infoDiv offset-lg-1 col-lg-7 offset-md-1 col-md-7 col-sm-12 px-sm-2 col-xs-11">
+                <h5>YouTubeCommentAnalysis Python Package</h5>
+                <p>
+                    This Python package features analyzing YouTube viewers' emotions and discussion topics via comments.
+                    <br>
+                    <a href="https://pypi.org/project/YouTubeCommentAnalysis/">Download page</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="project row col-11 mx-auto" id="asmr">
+            <div class="imgDiv col-lg-4 col-md-4 col-sm-6 col-xs-6 mx-auto">
+                <iframe src="https://www.youtube.com/embed/C7VFbSIQT4A"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="infoDiv offset-lg-1 col-lg-7 offset-md-1 col-md-7 col-sm-12 px-sm-2 col-xs-11">
+                <h5>Investigating Multimodal Interactions and Parasocial Attractiveness in YouTube ASMR Videos</h5>
+                <p>
+                    Autonomous Sensory Meridian Response (ASMR) videos have become a popular video genre on YouTube
+                    and attracted millions of views every day.
+                    <br>
+                    This work presents a typology to understand the multimodal interactions and
+                    parasocial attractiveness in YouTube ASMR videos.
+                    <br>
+                    <a href="pdf/CHI22.pdf">CHI22 Paper</a>
+                    <a href="pdf/CSCW21.pdf">CSCW2021 Poster</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="project row col-11 mx-auto" id="shwm">
+            <div class="imgDiv col-lg-4 col-md-4 col-sm-6 col-xs-6 mx-auto">
+                <iframe src="https://www.youtube.com/embed/CBLHNjdTf38"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="infoDiv offset-lg-1 col-lg-7 offset-md-1 col-md-7 col-sm-12 px-sm-2 col-xs-11">
+                <h5>#StayHome #WithMe: How Do YouTubers Create Videos for COVID-19 Loneliness?</h5>
+                <p>
+                    Loneliness threatens public mental well-being during COVID-19 isolation.
+                    YouTube creators responded to the call of #StayHome #WithMe movement and
+                    made myriad videos for people who feel lonely or bored at home.
+                    <br>
+                    Grounded on Weiss's loneliness theory, this work analyzed 1488 SHWM videos
+                    to examine video-sharing as a pathway to social provisions.
+                    <br>
+                    <a href="pdf/CHI21.pdf">CHI21 Paper</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="exp" class="row">
+    <div class="container col-8">
+        <div class="mx-auto pt-4">
+            <div class="titleDiv">
+                <h2 class="d-flex justify-content-center">Work Experiences</h2>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="timeline__group">
+                <span class="timeline__year time" aria-hidden="true">February 2022 – Present</span>
+                <div class="timeline__cards">
+                    <div class="timeline__card card">
+                        <!--                        <header class="card__header">-->
+                        <!--                            -->
+                        <!--                        </header>-->
+                        <div class="card__content">
+                            <h6>Research Assistant</h6>
+                            <p>
+                                <i>Clark University</i> | Worcester, MA
+                                <br><br>
+                                Experimenting with creating labels for machine learning process
+                                by implementing image segmentation on PlanetScope imagery
+                                on AWS EC2 instances with Professor Estes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline__group">
+                <span class="timeline__year time" aria-hidden="true">September 2021 – Present</span>
+                <div class="timeline__cards">
+                    <div class="timeline__card card">
+                        <!--                        <div class="card__header">-->
+
+                        <!--                        </div>-->
+                        <div class="card__content">
+                            <h6>Undergraduate Researcher</h6>
+                            <p>
+                                <i>Clark University</i> | Worcester, MA
+                                <br><br>
+                                Exploring the physics of machine learning models
+                                and machine learning applications on computer vision problems
+                                with professor Holness. Sponsored by LEEP Fellowship.
+                                <br>
+                                Building machine learning models in Python for insect detection purpose.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline__group">
+                <span class="timeline__year time" aria-hidden="true">Summer 2021</span>
+                <div class="timeline__cards">
+                    <div class="timeline__card card">
+                        <!--                        <div class="card__header">-->
+
+                        <!--                        </div>-->
+                        <div class="card__content">
+                            <h6>Business Analyst Intern</h6>
+                            <p>
+                                <i>NexLab Technology</i> | HCMC, Vietnam
+                                <br><br>
+                                Studied and analyzed business functions and output requirements.
+                                <br>
+                                Performed quality improvement testing and
+                                worked with the design and development teams
+                                to improve existing products; reduced debugging time by 5%.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline__group">
+                <span class="timeline__year time" aria-hidden="true">February 2020 – September 2021</span>
+                <div class="timeline__cards">
+                    <div class="timeline__card card">
+                        <!--                        <div class="card__header">-->
+
+                        <!--                        </div>-->
+                        <div class="card__content">
+                            <h6>Undergraduate Researcher</h6>
+                            <p>
+                                <i>Clark University</i> | Worcester, MA
+                                <br><br>
+                                Analyzed YouTube video creation characteristics using
+                                grounded theory under Professor Niu’s adviser.
+                                <br>
+                                Wrote comment-tagging interface pipeline to
+                                clean YouTube comment texts and reduced run time by 30%.
+                                <br>
+                                Performed topic modeling and emotion analysis on
+                                8M YouTube comments from over 10,000 videos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline__group">
+                <span class="timeline__year time" aria-hidden="true">October 2019 – March 2020</span>
+                <div class="timeline__cards">
+                    <div class="timeline__card card">
+                        <!--                        <div class="card__header">-->
+
+                        <!--                        </div>-->
+                        <div class="card__content">
+                            <h6>Academic Technology Assistant</h6>
+                            <p>
+                                <i>Clark University</i> | Worcester, MA
+                                <br><br>
+                                Managed quality assurance and maintained accessibility
+                                and responsiveness of 3 teaching websites.
+                                <br>
+                                Troubleshoot problems coming from students,
+                                professors, and school staff.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="publication" class="row py-4">
+    <div class="mx-auto">
+        <div class="titleDiv">
+            <h2 class="d-flex justify-content-center">Publications and Posters</h2>
+        </div>
+    </div>
+    <div class="col-9 mx-auto">
+        <ul class="list-group">
+            <li>
+                Shuo Niu, Ava Bartolome, <b>Nguyen Binh Ha</b>, Keegan Veazey. 2022.
+                Close-up and Whispering: An Understanding of Multimodal and
+                Parasocial Interactions in YouTube ASMR videos.
+                In CHI ’22: ACM CHI Conference on Human Factors in Computing Systems,
+                April 30 - May 6, 2022, New Orlean. ACM, New York, NY, USA.
+            </li>
+            <li>
+                Ava Bartolome, <b>Nguyen Binh Ha</b>, Shuo Niu, 2021.
+                Investigating Multimodal Interactions and
+                Parasocial Attractiveness in YouTube ASMR Videos.
+                In CSCW ’21: ACM Conference on Computer-Supported Cooperative Work
+                & Social Computing, October 23 - 27, 2021, Online virtual.
+            </li>
+            <li>
+                Shuo Niu, Ava Bartolome, Cat Mai, <b>Nguyen Binh Ha</b>. 2020.
+                #StayHome #WithMe: How Do YouTubers Create Videos for COVID-19 Loneliness?
+                In CHI ’21: ACM CHI Conference on Human Factors in Computing Systems,
+                May 08–13, 2021, Online virtual. ACM, New York, NY, USA.
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer id="footer" class="top-space text-white text-center row">
+    <h3 class="widget-title">Contact</h3>
+    <div class="widget-body col">
+        <p>(508) 373-8260<br>
+            joha@clarku.edu
+        </p>
+    </div>
+    <div class="col">
+        <p>
+            Credit
+            <a href="https://codepen.io/melnik909/pen/qPjwvq">
+                HTML & CSS Template
+            </a>
+        </p>
+    </div>
+
+</footer>
+
+
+</body>
+
+
+</html>
